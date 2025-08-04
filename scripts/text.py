@@ -13,8 +13,13 @@ class Text:
         self.alpha_speed = 5
         self.color = color
 
+        self.text_rect = self.text.get_rect(center=pos)
+
     def draw(self):
         self.display.blit(self.text, self.position)
+    
+    def draw_center(self):
+        self.display.blit(self.text, self.text_rect)
     
     def update_text(self, text):
         self.text = self.font.render(text, True,self.color).convert_alpha()

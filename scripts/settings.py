@@ -1,3 +1,7 @@
 #configurações Gerais
 WIDTH = 1280
 HEIGHT = 720
+
+#Colors
+PRIMARY_COLOR = [255,255,255]
+SECONDARY_COLOR = [51,51,51]
