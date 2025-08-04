@@ -13,7 +13,7 @@ class AnimatedBg:
         self.bg.rect.y += 1
         self.bg2.rect.y += 1
 
-        if self.bg.rect.y > HEIGHT:
+        if self.bg.rect.y >= HEIGHT:
             self.bg.rect.y = 0
-        elif self.bg2.rect.y == 0:
+        elif self.bg2.rect.y >= 0:
             self.bg2.rect.y = -HEIGHT
