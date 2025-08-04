@@ -11,13 +11,6 @@ class Game(Scene):
     def __init__(self):
         super().__init__()
 
-        self.tick = 0
-        self.enemy_colision = pygame.sprite.Group()
-        self.all_colision = pygame.sprite.Group()
-
-        #self.music = pygame.mixer.Sound("file")
-        #self.music.play(-1)
-
     def colision(self):
         pass
 

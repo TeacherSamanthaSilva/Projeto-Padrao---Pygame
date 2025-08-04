@@ -1,2 +1,2 @@
-# Projeto Base para Pygame
-# Basta extrair e usar
+# Projeto Blue Scape
+# Jogo desenvolvido em pygame
