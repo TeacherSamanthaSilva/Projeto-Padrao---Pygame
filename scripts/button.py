@@ -4,7 +4,7 @@ from scripts.text import Text
 
 class Button:
 
-    def __init__(self, color, x, y, text):
+    def __init__(self, color, x, y, text, call_back):
         
         self.display = pygame.display.get_surface()
         self.color = color
@@ -14,7 +14,9 @@ class Button:
         self.text_color = SECONDARY_COLOR
         self.text_position = [(x + self.rect.width / 2),(y + self.rect.height / 2)]
         self.render = Text("assets/fonts/airstrike.ttf", 40, self.text, self.text_color,self.text_position)
-    
+
+        self.call_back = call_back
+
     def events(self, event):
 
         if event.type == pygame.MOUSEMOTION:
@@ -24,6 +26,12 @@ class Button:
             else:
                 self.color = PRIMARY_COLOR
                 self.render.update_text(self.text, SECONDARY_COLOR)
+        
+        if event.type == pygame.MOUSEBUTTONDOWN:
+            if event.button == 1 and self.rect.collidepoint(event.pos):
+                self.call_back()
+
+
 
     def draw(self):
         pygame.draw.rect(self.display,self.color, self.rect)
