@@ -24,9 +24,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.37014941"
-     inkscape:cx="279.61682"
-     inkscape:cy="389.03209"
+     inkscape:zoom="0.52347032"
+     inkscape:cx="167.1537"
+     inkscape:cy="469.94069"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="1366"
@@ -2148,24 +2148,24 @@
       </g>
     </g>
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.51809;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:0;stroke:none;stroke-width:1.51809;stroke-dasharray:none;stroke-opacity:1"
        id="rect3213"
        width="66.145836"
        height="16.933332"
-       x="17.722857"
+       x="16.928839"
        y="111.12502"
        ry="0.25720879" />
     <text
        xml:space="preserve"
-       style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:'Caramel and Vanilla';-inkscape-font-specification:'Caramel and Vanilla Bold Italic';stroke-width:0.264583;fill:#333333;fill-opacity:1"
-       x="36.725281"
-       y="122.39626"
+       style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:'Caramel and Vanilla';-inkscape-font-specification:'Caramel and Vanilla Bold Italic';fill:#333333;fill-opacity:1;stroke-width:0.264583"
+       x="36.72554"
+       y="117.38091"
        id="text3217"><tspan
          sodipodi:role="line"
          id="tspan3215"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Airstrike;-inkscape-font-specification:'Airstrike Bold Italic';stroke-width:0.264583;fill:#333333;fill-opacity:1"
-         x="36.725281"
-         y="122.39626">Play</tspan></text>
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Airstrike;-inkscape-font-specification:'Airstrike Bold Italic';fill:#333333;fill-opacity:1;stroke-width:0.264583"
+         x="36.72554"
+         y="117.38091">Play</tspan></text>
     <rect
        style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1.51809;stroke-dasharray:none;stroke-opacity:1"
        id="rect3219"
@@ -2196,13 +2196,13 @@
     <text
        xml:space="preserve"
        style="font-style:italic;font-weight:bold;font-size:10.5833px;line-height:1.25;font-family:'Caramel and Vanilla';-inkscape-font-specification:'Caramel and Vanilla Bold Italic';fill:#333333;fill-opacity:1;stroke-width:0.264583"
-       x="36.725281"
-       y="145.15042"
+       x="35.815113"
+       y="146.06059"
        id="text3436"><tspan
          sodipodi:role="line"
          id="tspan3434"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Airstrike;-inkscape-font-specification:'Airstrike Bold Italic';fill:#333333;fill-opacity:1;stroke-width:0.264583"
-         x="36.725281"
-         y="145.15042">Quit</tspan></text>
+         x="35.815113"
+         y="146.06059">Quit</tspan></text>
   </g>
 </svg>
